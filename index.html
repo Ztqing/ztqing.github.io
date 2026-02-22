@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你的名字 - 个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 背景动画粒子 -->
+    <div class="bg-dots" id="bgDots"></div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">YourName</div>
+        <div class="nav-links">
+            <a href="#about">关于</a>
+            <a href="#skills">技能</a>
+            <a href="#projects">项目</a>
+            <a href="#contact">联系</a>
+            <button class="theme-toggle" id="themeToggle" title="切换主题">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <button class="mobile-menu" id="mobileMenu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- 英雄区 -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <div class="avatar-wrapper">
+                <!-- 如果没有头像图片，会显示首字母 -->
+                <div class="avatar">
+                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=YN&backgroundColor=6366f1" 
+                         alt="头像"
+                         onerror="this.style.display='none'">
+                </div>
+                <div class="status-dot"></div>
+            </div>
+            <h1 class="glitch" data-text="你的名字">你的名字</h1>
+            <p class="subtitle">
+                <span class="typing" id="typingText"></span>
+                <span class="cursor">|</span>
+            </p>
+            <p class="bio">热爱技术，专注于创造优雅的解决方案。<br>相信代码可以改变世界。</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> 查看项目
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> 联系我
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/你的用户名" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:your@email.com" title="邮箱">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://blog.example.com" target="_blank" title="博客">
+                    <i class="fas fa-blog"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 技能区 -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">技术栈</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-java"></i></div>
+                    <h3>Java</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>数据库</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                    <h3>Docker</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                    <h3>Linux</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目区 -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>项目名称一</h3>
+                    <p>这是一个示例项目的简短描述，展示了项目的核心功能和技术亮点。</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>项目名称二</h3>
+                    <p>这是另一个示例项目，可以替换为你自己的真实项目信息。</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>项目名称三</h3>
+                    <p>第三个项目卡片，你可以根据需要增减项目卡片数量。</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Redis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区 -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <p class="contact-desc">
+                    如果你有任何问题、合作意向，或者只是想打个招呼，<br>欢迎随时与我联系！
+                </p>
+                <div class="contact-cards">
+                    <a href="mailto:your@email.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>your@email.com</span>
+                    </a>
+                    <a href="https://github.com/你的用户名" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="contact-card">
+                        <i class="fab fa-weixin"></i>
+                        <span>微信: yourwechat</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2025 YourName · 使用 ❤️ 和代码构建</p>
+        <p class="footer-sub">Hosted on GitHub Pages</p>
+    </footer>
+
+<script>
+// ====== 打字机效果 ======
+const titles = [
+    "计算机科学 研究者 🔬",
+    "全栈开发工程师 💻",
+    "开源爱好者 🌟",
+    "终身学习者 📚"
+];
+let titleIndex = 0, charIndex = 0, isDeleting = false;
+const typingEl = document.getElementById('typingText');
+
+function typeEffect() {
+    const current = titles[titleIndex];
+    if (isDeleting) {
+        typingEl.textContent = current.substring(0, charIndex--);
+    } else {
+        typingEl.textContent = current.substring(0, charIndex++);
+    }
+    let speed = isDeleting ? 50 : 100;
+    if (!isDeleting && charIndex === current.length + 1) {
+        speed = 2000;
+        isDeleting = true;
+    } else if (isDeleting && charIndex < 0) {
+        isDeleting = false;
+        titleIndex = (titleIndex + 1) % titles.length;
+        speed = 500;
+    }
+    setTimeout(typeEffect, speed);
+}
+typeEffect();
+
+// ====== 深色/浅色主题切换 ======
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+const saved = localStorage.getItem('theme');
+if (saved === 'light') {
+    body.classList.add('light-mode');
+    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+}
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    const isLight = body.classList.contains('light-mode');
+    themeToggle.innerHTML = isLight ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+});
+
+// ====== 移动端菜单 ======
+const mobileMenu = document.getElementById('mobileMenu');
+const navLinks = document.querySelector('.nav-links');
+mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    mobileMenu.innerHTML = navLinks.classList.contains('active')
+        ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+});
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        mobileMenu.innerHTML = '<i class="fas fa-bars"></i>';
+    });
+});
+
+// ====== 导航栏滚动效果 ======
+window.addEventListener('scroll', () => {
+    document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// ====== 技能条动画（Intersection Observer）======
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            // 技能条填充
+            entry.target.querySelectorAll('.skill-fill').forEach(bar => {
+                bar.style.width = bar.dataset.width;
+            });
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.section, .hero').forEach(el => observer.observe(el));
+
+// ====== 背景动态点 ======
+const bgDots = document.getElementById('bgDots');
+for (let i = 0; i < 50; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'dot';
+    dot.style.left = Math.random() * 100 + '%';
+    dot.style.top = Math.random() * 100 + '%';
+    dot.style.animationDelay = Math.random() * 5 + 's';
+    dot.style.animationDuration = (3 + Math.random() * 4) + 's';
+    bgDots.appendChild(dot);
+}
+
+// ====== 平滑滚动 ======
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+});
+</script>
+
+</body>
+</html>
