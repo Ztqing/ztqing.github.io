@@ -35,8 +35,9 @@ My research interest includes neural machine translation and computer vision. I 
 <!-- [PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION
 
-Ping Hu (supervisor), **Tongqing Zhu**, Lianjin Han, Junhang Wu, Kai Zhao, Zheng Zhu, Jian Zhao
+Ping Hu (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*
 
+International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B)
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 - This work proposes a Propagating-based Refined Semantic Features with Bipartite Matching (PRISM) framework, which learns discriminative representations and bridges the modality gap to enable efficient group matching.
 </div>
