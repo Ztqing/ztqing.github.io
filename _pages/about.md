@@ -23,10 +23,15 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🔥 News
 
-- *2026.01*: &nbsp;🎉🎉 Our paper entitled “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION” was accepted by ICASSP 2026.
-<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2026.01*: &nbsp;🎉 Our paper entitled “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION” was accepted by ICASSP 2026.
+- *2025.12*: &nbsp;🏆 I was awarded the Autonomous Region Scholarship
+- *2025.12*: &nbsp;🏆 I was awarded the Excellent Student Cadre of Xinjiang University
+- *2025.12*: &nbsp;🏅 I won the First Prize in the Regional Competition of the 2nd CACC
+- *2025.08*: &nbsp;🏅 I won the Gold Award in the Preliminary Round of the 21st Baidu Astar
+- *2025.08*: &nbsp;🏅 I won the Gold Prize in the Provincial Competition of the 7th Mati Cup
+- *2024.12*: &nbsp;🏅 I won the Third Prize in the Regional Competition of the 1st CACC
 
-# 📝 Publications
+# 🎉 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/publications/2026-ICASSP-PRISM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -36,7 +41,7 @@ PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR V
 
 Ping Hu (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*
 
-International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**Project**](https://icassp-prism.github.io) 
+International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**Project**](https://icassp-prism.github.io)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 
 - This work proposes a Propagating-based Refined Semantic Features with Bipartite Matching (PRISM) framework, which learns discriminative representations and bridges the modality gap to enable efficient group matching.
@@ -46,9 +51,19 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-<!-- # 🎖 Honors and Awards -->
-<!-- - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🏆 Honors and Awards
+
+- *2025.12* Autonomous Region Scholarship
+- *2025.12* Excellent Student Cadre of Xinjiang University
+
+<!-- - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
+# 🏅 Competitions
+
+- *2025.12* First Prize in the Regional Competition of the 2nd China Algorithm Capability Competition (CACC)
+- *2025.08* Gold Award in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)
+- *2025.08* Gold Prize in the Provincial (Mati Cup)Competition of the 7th Mati Cup Programming Contest
+- *2024.12* Third Prize in the Regional Competition of the 1st China Algorithm Capability Competition (CACC)
 
 # 📖 Educations
 

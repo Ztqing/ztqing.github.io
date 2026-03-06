@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Tongqing Zhu - Homepage"
+title                    : "Tongqing Zhu (朱同庆) - Homepage"
 description              : "M.S. student at Xinjiang University, focusing on human behavior understanding."
 repository               : "Ztqing/ztqing.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Tongqing Zhu\n(朱同庆)"
+  name             : "Tongqing Zhu</br>(朱同庆)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Xinjiang University"
   location         : "Urumqi, China"
