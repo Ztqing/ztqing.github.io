@@ -27,7 +27,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2025.12*: &nbsp;🏆 I was awarded the Autonomous Region Scholarship.
 - *2025.12*: &nbsp;🏆 I was awarded the Excellent Student Cadre of Xinjiang University.
 - *2025.12*: &nbsp;🏅 I won the First Prize in the Regional Competition of the 2nd CACC.
-- *2025.08*: &nbsp;🏅 I won the Gold Award in the Preliminary Round of the 21st Baidu Astar.
+- *2025.08*: &nbsp;🏅 I won the Gold Prize in the Preliminary Round of the 21st Baidu Astar.
 - *2025.08*: &nbsp;🏅 I won the Gold Prize in the Provincial Competition of the 7th Mati Cup.
 - *2024.12*: &nbsp;🏅 I won the Third Prize in the Regional Competition of the 1st CACC.
 
@@ -39,7 +39,7 @@ My research interest includes neural machine translation and computer vision. I 
 <!-- [PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION
 
-Ping Hu (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*
+Ping Hu* (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*
 
 International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**Project**](https://icassp-prism.github.io)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
@@ -61,7 +61,7 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 # 🏅 Competitions
 
 - *2025.12* First Prize in the Regional Competition of the 2nd China Algorithm Capability Competition (CACC)
-- *2025.08* Gold Award in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)
+- *2025.08* Gold Prize in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)
 - *2025.08* Gold Prize in the Provincial Competition of the 7th Mati Cup Programming Contest (Mati Cup)
 - *2024.12* Third Prize in the Regional Competition of the 1st China Algorithm Capability Competition (CACC)
 
