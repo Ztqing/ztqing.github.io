@@ -23,9 +23,10 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🔥 News
 
-- *2026.01*: &nbsp;🎉 Our paper entitled “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION” was accepted by ICASSP 2026.
+- *2026.03*: &nbsp;🎉 I was selected for the Autonomous Region Graduate Research and Innovation Project.
+- *2026.01*: &nbsp;🎉 Our paper, “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION,” was accepted by ICASSP 2026.
 - *2025.12*: &nbsp;🏆 I was awarded the Autonomous Region Scholarship.
-- *2025.12*: &nbsp;🏆 I was awarded the Excellent Student Cadre of Xinjiang University.
+- *2025.12*: &nbsp;🏆 I was awarded the title of Excellent Student Cadre of Xinjiang University.
 - *2025.12*: &nbsp;🏅 I won the First Prize in the Regional Competition of the 2nd CACC.
 - *2025.08*: &nbsp;🏅 I won the Gold Prize in the Preliminary Round of the 21st Baidu Astar.
 - *2025.08*: &nbsp;🏅 I won the Gold Prize in the Provincial Competition of the 7th Mati Cup.
@@ -53,6 +54,7 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 
 # 🏆 Honors and Awards
 
+- *2026.03* Selected for the Autonomous Region Graduate Research and Innovation Project
 - *2025.12* Autonomous Region Scholarship
 - *2025.12* Excellent Student Cadre of Xinjiang University
 
@@ -65,7 +67,7 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 - *2025.08* Gold Prize in the Provincial Competition of the 7th Mati Cup Programming Contest (Mati Cup)
 - *2024.12* Third Prize in the Regional Competition of the 1st China Algorithm Capability Competition (CACC)
 
-# 🎓 Educations
+# 🎓 Education
 
 - *2024.09 - Now*, M.S. in Computer Science and Technology, Xinjiang University, Urumqi.
 - *2019.09 - 2023.06*, B.E. in Computer Science and Technology, Huai'an University, Huai'an.
