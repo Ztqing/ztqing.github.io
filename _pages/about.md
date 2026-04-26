@@ -42,7 +42,7 @@ PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR V
 
 Ping Hu* (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*
 
-International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**Project**](https://icassp-prism.github.io)
+International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**Project**](https://icassp-prism.github.io) ｜ [**Code**](https://github.com/icassp-prism/ICASSP2026-PRISM)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 
 - This work proposes a Propagating-based Refined Semantic Features with Bipartite Matching (PRISM) framework, which learns discriminative representations and bridges the modality gap to enable efficient group matching.
