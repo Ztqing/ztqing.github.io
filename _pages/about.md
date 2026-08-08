@@ -23,6 +23,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🔥 News
 
+- *2026.07*: &nbsp;🏅 I won the Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition.
 - *2026.05*: &nbsp;🏅 I won the First Prize in the Provincial Competition of the 13th College Students' New Generation Information and Communication Technology Competition.
 - *2026.03*: &nbsp;🎉 I was selected for the Autonomous Region Graduate Research and Innovation Project.
 - *2026.01*: &nbsp;🎉 Our paper, “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION,” was accepted by ICASSP 2026.
@@ -63,8 +64,8 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 
 # 🏅 Competitions
 
+- *2026.07* Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition
 - *2026.05* First Prize in the Provincial Competition of the 13th College Students' New Generation Information and Communication Technology Competition
-- *2026.05* Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition
 - *2025.12* First Prize in the Regional Competition of the 2nd China Algorithm Capability Competition (CACC)
 - *2025.08* Gold Prize in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)
 - *2025.08* Gold Prize in the Provincial Competition of the 7th Mati Cup Programming Contest (Mati Cup)
