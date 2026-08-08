@@ -64,6 +64,7 @@ International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2
 # 🏅 Competitions
 
 - *2026.05* First Prize in the Provincial Competition of the 13th College Students' New Generation Information and Communication Technology Competition
+- *2026.05* Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition
 - *2025.12* First Prize in the Regional Competition of the 2nd China Algorithm Capability Competition (CACC)
 - *2025.08* Gold Prize in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)
 - *2025.08* Gold Prize in the Provincial Competition of the 7th Mati Cup Programming Contest (Mati Cup)
