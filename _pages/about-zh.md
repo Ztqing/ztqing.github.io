@@ -52,7 +52,7 @@ PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR V
 
 Ping Hu（导师），**Tongqing Zhu**，Lianjin Han *et al.*
 
-International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) | [**主页**](https://icassp-prism.github.io) | [**论文**](https://ieeexplore.ieee.org/document/11462296) | [**代码**](https://github.com/icassp-prism/ICASSP2026-PRISM)
+International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) \| [**主页**](https://icassp-prism.github.io) \| [**论文**](https://ieeexplore.ieee.org/document/11462296) \| [**代码**](https://github.com/icassp-prism/ICASSP2026-PRISM)
 
 - 本文提出基于传播式语义特征细化与二分图匹配的 PRISM 框架，学习具有判别力的表征并缩小模态差异，从而实现高效的群体匹配。
 
