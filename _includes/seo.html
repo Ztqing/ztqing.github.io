@@ -3,16 +3,16 @@
   {% assign seo_url = site.url %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
+{% assign canonical_path = page.url | replace: "index.html", "" %}
+{% assign canonical_url = canonical_path | prepend: seo_url %}
+{% assign seo_title = page.seo_title | default: site.title %}
 
-{% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
-{% endif %}
-
-<title>{{ site.title }} - Homepage</title>
+<title>{{ seo_title | escape_once }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -29,22 +29,30 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="{{ page.og_locale | default: 'en_US' }}">
+<meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title | escape_once }}">
 
 {% if seo_url %}
-  <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  {% if page.alternate_en_url %}
+    <link rel="alternate" hreflang="en" href="{{ page.alternate_en_url | prepend: seo_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.alternate_en_url | prepend: seo_url }}">
+  {% endif %}
+  {% if page.alternate_zh_url %}
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.alternate_zh_url | prepend: seo_url }}">
+  {% endif %}
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+  <meta name="twitter:title" content="{{ seo_title | markdownify | strip_html | strip_newlines | escape_once }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 

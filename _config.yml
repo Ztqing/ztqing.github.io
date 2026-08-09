@@ -8,6 +8,8 @@
 # Site Settings
 title                    : "Tongqing Zhu - Homepage"
 description              : "M.S. student at Xinjiang University, focusing on human behavior understanding."
+url                      : "https://ztqing.github.io"
+baseurl                  : ""
 repository               : "Ztqing/ztqing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Tongqing Zhu"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "/images/android-chrome-512x512.png"
   bio              : "Xinjiang University"
   location         : "Urumqi, China"
   employer         :
