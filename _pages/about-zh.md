@@ -8,11 +8,13 @@ lang: zh-CN
 og_locale: zh_CN
 navigation: zh
 navigation_label: "主导航"
-menu_label: "展开导航"
+menu_label: "打开导航"
+menu_close_label: "关闭导航"
 home_label: "主页"
 home_url: "/zh/#about"
-language_label: "English"
 language_url: "/"
+language_switcher_label: "语言"
+language_target_label: "切换到英文"
 alternate_en_url: "/"
 alternate_zh_url: "/zh/"
 email_label: "邮箱"

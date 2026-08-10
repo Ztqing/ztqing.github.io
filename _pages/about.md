@@ -8,11 +8,13 @@ lang: en
 og_locale: en_US
 navigation: main
 navigation_label: "Primary navigation"
-menu_label: "Toggle navigation"
+menu_label: "Open navigation"
+menu_close_label: "Close navigation"
 home_label: "Homepage"
 home_url: "/#about"
-language_label: "中文"
 language_url: "/zh/"
+language_switcher_label: "Language"
+language_target_label: "Switch to Chinese"
 alternate_en_url: "/"
 alternate_zh_url: "/zh/"
 email_label: "Email"

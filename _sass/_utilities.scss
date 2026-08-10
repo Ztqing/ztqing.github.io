@@ -291,55 +291,59 @@ body:hover .visually-hidden button {
 
 .navicon {
   position: relative;
+  display: block;
   width: $navicon-width;
-  height: $navicon-height;
-  background: #fff;
+  height: 14px;
+  background: transparent;
   margin: auto;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
+          transition: 0.3s;
 
-  &:before,
-  &:after {
+  span {
     content: "";
     position: absolute;
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: currentColor;
     -webkit-transition: 0.3s;
-    transition: 0.3s;
+            transition: 0.3s;
   }
 
-  &:before {
-    top: (-2 * $navicon-height);
+  span:nth-child(1) {
+    top: 0;
   }
 
-  &:after {
-    bottom: (-2 * $navicon-height);
+  span:nth-child(2) {
+    top: 6px;
+  }
+
+  span:nth-child(3) {
+    top: 12px;
   }
 }
 
 .close .navicon {
-  /* hide the middle line*/
-  background: transparent;
-
-  /* overlay the lines by setting both their top values to 0*/
-  &:before, &:after{
-    -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    top: 0;
-    width: $navicon-width;
+  span {
+    transform-origin: center;
   }
 
-  /* rotate the lines to form the x shape*/
-  &:before{
-    -webkit-transform: rotate3d(0,0,1,45deg);
-            transform: rotate3d(0,0,1,45deg);
+  span:nth-child(1),
+  span:nth-child(3) {
+    top: 6px;
   }
-  &:after{
-    -webkit-transform: rotate3d(0,0,1,-45deg);
-            transform: rotate3d(0,0,1,-45deg);
+
+  span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  span:nth-child(2) {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+
+  span:nth-child(3) {
+    transform: rotate(-45deg);
   }
 }
 

@@ -4,17 +4,25 @@
       {% assign navigation_key = page.navigation | default: "main" %}
       {% assign navigation_links = site.data.navigation[navigation_key] %}
       <nav id="site-nav" class="greedy-nav" aria-label="{{ page.navigation_label | default: 'Primary navigation' }}">
-        <button aria-label="{{ page.menu_label | default: 'Toggle navigation' }}"><div class="navicon"></div></button>
+        <button class="masthead__menu-toggle hidden" type="button" aria-label="{{ page.menu_label | default: 'Open navigation' }}" aria-expanded="false" aria-controls="site-nav-menu" data-open-label="{{ page.menu_label | default: 'Open navigation' }}" data-close-label="{{ page.menu_close_label | default: 'Close navigation' }}"><span class="navicon" aria-hidden="true"><span></span><span></span><span></span></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ page.home_url | default: '/#about' | relative_url }}">{{ page.home_label | default: 'Homepage' }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" data-nav-order="0"><a href="{{ page.home_url | default: '/#about' | relative_url }}">{{ page.home_label | default: 'Homepage' }}</a></li>
           {% for link in navigation_links %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item" data-nav-order="{{ forloop.index }}"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
-          {% if page.language_url and page.language_label %}
-            <li class="masthead__menu-item masthead__menu-language"><a href="{{ page.language_url | relative_url }}" lang="{% if page.lang == 'zh-CN' %}en{% else %}zh-CN{% endif %}" hreflang="{% if page.lang == 'zh-CN' %}en{% else %}zh-CN{% endif %}">{{ page.language_label }}</a></li>
-          {% endif %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="site-nav-menu" class="hidden-links hidden"></ul>
+        {% if page.language_url %}
+          <div class="masthead__language" role="group" aria-label="{{ page.language_switcher_label | default: 'Language' }}">
+            {% if page.lang == 'zh-CN' %}
+              <a class="masthead__language-option" href="{{ page.language_url | relative_url }}" lang="en" hreflang="en" aria-label="{{ page.language_target_label | default: 'Switch to English' }}" data-language-switch>EN</a>
+              <span class="masthead__language-option is-active" lang="zh-CN" aria-current="page">中文</span>
+            {% else %}
+              <span class="masthead__language-option is-active" lang="en" aria-current="page">EN</span>
+              <a class="masthead__language-option" href="{{ page.language_url | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="{{ page.language_target_label | default: 'Switch to Chinese' }}" data-language-switch>中文</a>
+            {% endif %}
+          </div>
+        {% endif %}
       </nav>
     </div>
   </div>
