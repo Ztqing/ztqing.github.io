@@ -1,4 +1,4 @@
-(function () {
+function initMasthead() {
   "use strict";
 
   var nav = document.getElementById("site-nav");
@@ -100,4 +100,7 @@
 
   window.addEventListener("resize", updateNavigationLayout);
   updateNavigationLayout();
-}());
+}
+
+window.initMasthead = initMasthead;
+initMasthead();
