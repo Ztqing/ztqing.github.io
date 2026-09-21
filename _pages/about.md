@@ -60,7 +60,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🎉 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='{{ "/images/publications/2026-ICASSP-PRISM.webp" | relative_url }}' alt="PRISM framework overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='{{ "/images/publications/2026-ICASSP-PRISM.webp" | relative_url }}' alt="PRISM framework overview" width="1600" height="766"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <!-- [PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->

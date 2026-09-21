@@ -94,6 +94,11 @@
   img {
     max-width: 175px;
     min-width: 75px;
+    // 占位用固有比例：头像在加载前没有图片数据时高度会塌成 alt 文字高度（约 34px），
+    // 导致下方内容位移。声明 1:1 后宽度已知即可推出高度，加载前后占位一致。
+    aspect-ratio: 1 / 1;
+    // 配合 aspect-ratio：若将来换成非方形头像，按比例裁切而不是拉伸变形
+    object-fit: cover;
     border-radius: 50%;
 
     @include breakpoint($large) {
