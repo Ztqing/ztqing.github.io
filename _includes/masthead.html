@@ -2,13 +2,16 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       {% assign navigation_key = page.navigation | default: "main" %}
-      {% assign navigation_links = site.data.navigation[navigation_key] %}
+      {% assign navigation_ids = site.data.navigation[navigation_key] %}
+      {% assign navigation_anchor_base = page.home_url | default: '/#about' | split: '#' | first %}
       <nav id="site-nav" class="greedy-nav" aria-label="{{ page.navigation_label | default: 'Primary navigation' }}">
         <button class="masthead__menu-toggle hidden" type="button" aria-label="{{ page.menu_label | default: 'Open navigation' }}" aria-expanded="false" aria-controls="site-nav-menu" data-open-label="{{ page.menu_label | default: 'Open navigation' }}" data-close-label="{{ page.menu_close_label | default: 'Close navigation' }}"><span class="navicon" aria-hidden="true"><span></span><span></span><span></span></span></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" data-nav-order="0"><a href="{{ page.home_url | default: '/#about' | relative_url }}">{{ page.home_label | default: 'Homepage' }}</a></li>
-          {% for link in navigation_links %}
-            <li class="masthead__menu-item" data-nav-order="{{ forloop.index }}"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {% for section_id in navigation_ids %}
+            {%- assign section = site.data.sections | where: "id", section_id | first -%}
+            {%- if page.lang == 'zh-CN' -%}{%- assign section_title = section.title_zh -%}{%- else -%}{%- assign section_title = section.title_en -%}{%- endif -%}
+            <li class="masthead__menu-item" data-nav-order="{{ forloop.index }}"><a href="{{ navigation_anchor_base | relative_url }}#{{ section.id }}">{{ section_title }}</a></li>
           {% endfor %}
         </ul>
         <ul id="site-nav-menu" class="hidden-links hidden"></ul>

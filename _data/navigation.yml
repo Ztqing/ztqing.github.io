@@ -1,44 +1,22 @@
-# main links links
+# Top navigation. Each language lists section ids from _data/sections.yml in
+# display order; the label and the anchor url are resolved from that file, so
+# anchors never have to be kept in sync by hand.
 main:
-  - title: "About Me"
-    url: "/#about"
+  - about
+  - news
+  - publications
+  - honors
+  - competitions
+  - education
 
-  - title: "News"
-    url: "/#news"
+  # - invited-talks
 
-  - title: "Publications"
-    url: "/#publications"
-
-  - title: "Honors and Awards"
-    url: "/#honors"
-
-  - title: "Competitions"
-    url: "/#competitions"
-
-  - title: "Education"
-    url: "/#education"
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  # - title: "Internships"
-  #   url: "/#-internships"
+  # - internships
 
 zh:
-  - title: "个人简介"
-    url: "/zh/#about"
-
-  - title: "动态"
-    url: "/zh/#news"
-
-  - title: "论文"
-    url: "/zh/#publications"
-
-  - title: "荣誉与奖励"
-    url: "/zh/#honors"
-
-  - title: "学科竞赛"
-    url: "/zh/#competitions"
-
-  - title: "教育经历"
-    url: "/zh/#education"
+  - about
+  - news
+  - publications
+  - honors
+  - competitions
+  - education
