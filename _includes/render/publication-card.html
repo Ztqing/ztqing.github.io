@@ -1,0 +1,14 @@
+{%- if page.lang == 'zh-CN' -%}{%- assign alt = include.publication.image_alt_zh -%}{%- assign authors = include.publication.authors_zh -%}{%- assign venue = include.publication.venue_zh -%}{%- assign summary = include.publication.summary_zh -%}{%- else -%}{%- assign alt = include.publication.image_alt_en -%}{%- assign authors = include.publication.authors_en -%}{%- assign venue = include.publication.venue_en -%}{%- assign summary = include.publication.summary_en -%}{%- endif -%}
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">{{ include.publication.badge }}</div><img src='{{ include.publication.image | relative_url }}' alt="{{ alt }}"{% if include.publication.image_width %} width="{{ include.publication.image_width }}" height="{{ include.publication.image_height }}"{% endif %}></div></div>
+<div class='paper-box-text' markdown="1">
+
+{{ include.publication.title }}
+
+{{ authors }}
+
+{{ venue }}
+
+- {{ summary }}
+
+</div>
+</div>

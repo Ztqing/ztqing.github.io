@@ -1,0 +1,30 @@
+# Competition results, newest first.
+- date: "2026.07"
+  id: ict-2026-national
+  text_en: "Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition"
+  text_zh: "第十三届大学生新一代信息通信科技大赛国赛二等奖"
+
+- date: "2026.05"
+  id: ict-2026-provincial
+  text_en: "First Prize in the Provincial Competition of the 13th College Students' New Generation Information and Communication Technology Competition"
+  text_zh: "第十三届大学生新一代信息通信科技大赛省赛一等奖"
+
+- date: "2025.12"
+  id: cacc-2025-region
+  text_en: "First Prize in the Regional Competition of the 2nd China Algorithm Capability Competition (CACC)"
+  text_zh: "第二届 CCF 算法能力大赛区域赛一等奖"
+
+- date: "2025.08"
+  id: astar-2025-preliminary
+  text_en: "Gold Prize in the Preliminary Round of the 21st Baidu Star Programming Contest (Astar)"
+  text_zh: "第二十一届百度之星程序设计大赛初赛金奖"
+
+- date: "2025.08"
+  id: mati-2025-provincial
+  text_en: "Gold Prize in the Provincial Competition of the 7th Mati Cup Programming Contest (Mati Cup)"
+  text_zh: "第七届码蹄杯程序设计大赛省赛金奖"
+
+- date: "2024.12"
+  id: cacc-2024-region
+  text_en: "Third Prize in the Regional Competition of the 1st China Algorithm Capability Competition (CACC)"
+  text_zh: "第一届 CCF 算法能力大赛区域赛三等奖"

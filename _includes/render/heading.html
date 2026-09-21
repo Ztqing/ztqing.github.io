@@ -1,0 +1,5 @@
+{%- assign section = site.data.sections | where: "id", include.key | first -%}
+{%- if page.lang == 'zh-CN' -%}{%- assign section_title = section.title_zh -%}{%- else -%}{%- assign section_title = section.title_en -%}{%- endif -%}
+<span class='anchor' id='{{ section.id }}'></span>
+
+# {% if section.emoji %}{{ section.emoji }} {% endif %}{{ section_title }}

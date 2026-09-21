@@ -1,0 +1,16 @@
+# Publications, newest first. The venue line keeps its Markdown links, so the
+# card template renders it inside a markdown="1" block.
+- id: prism-icassp-2026
+  badge: "ICASSP 2026"
+  image: "/images/publications/2026-ICASSP-PRISM.webp"
+  image_width: 1600
+  image_height: 766
+  image_alt_en: "PRISM framework overview"
+  image_alt_zh: "PRISM 框架概览"
+  title: "PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION"
+  authors_en: "Ping Hu* (supervisor), **Tongqing Zhu**, Lianjin Han *et al.*"
+  authors_zh: "Ping Hu（导师），**Tongqing Zhu**，Lianjin Han *et al.*"
+  venue_en: 'International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) \| [**Project**](https://icassp-prism.github.io) \| [**Paper**](https://ieeexplore.ieee.org/document/11462296) \| [**Code**](https://github.com/icassp-prism/ICASSP2026-PRISM)'
+  venue_zh: 'International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026. (CCF-B) \| [**主页**](https://icassp-prism.github.io) \| [**论文**](https://ieeexplore.ieee.org/document/11462296) \| [**代码**](https://github.com/icassp-prism/ICASSP2026-PRISM)'
+  summary_en: "This work proposes a Propagating-based Refined Semantic Features with Bipartite Matching (PRISM) framework, which learns discriminative representations and bridges the modality gap to enable efficient group matching."
+  summary_zh: "本文提出基于传播式语义特征细化与二分图匹配的 PRISM 框架，学习具有判别力的表征并缩小模态差异，从而实现高效的群体匹配。"

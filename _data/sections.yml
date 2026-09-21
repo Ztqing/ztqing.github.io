@@ -1,0 +1,32 @@
+# Homepage sections. The list order is the render order on the page.
+# `id` is the single source of truth for the anchor id used by the page
+# (<span class='anchor' id='...'>) and by the top navigation (/#...).
+- id: about
+  emoji:
+  title_en: "About Me"
+  title_zh: "个人简介"
+
+- id: news
+  emoji: "🔥"
+  title_en: "News"
+  title_zh: "动态"
+
+- id: publications
+  emoji: "🎉"
+  title_en: "Publications"
+  title_zh: "论文"
+
+- id: honors
+  emoji: "🏆"
+  title_en: "Honors and Awards"
+  title_zh: "荣誉与奖励"
+
+- id: competitions
+  emoji: "🏅"
+  title_en: "Competitions"
+  title_zh: "学科竞赛"
+
+- id: education
+  emoji: "🎓"
+  title_en: "Education"
+  title_zh: "教育经历"

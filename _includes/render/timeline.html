@@ -1,0 +1,13 @@
+{%- comment -%}
+Renders a dated list from a data file. The caller supplies the separator that
+follows the date, because the existing sections punctuate it differently
+(News uses ": &nbsp;", Education uses ", " or "，").
+
+Parameters:
+  items  - array from site.data
+  sep_en - separator after the date for English
+  sep_zh - separator after the date for Chinese
+{%- endcomment -%}
+{%- if page.lang == 'zh-CN' -%}{%- assign date_field = 'date_zh' -%}{%- assign text_field = 'text_zh' -%}{%- assign separator = include.sep_zh -%}{%- else -%}{%- assign date_field = 'date_en' -%}{%- assign text_field = 'text_en' -%}{%- assign separator = include.sep_en -%}{%- endif -%}
+{%- for item in include.items %}- *{{ item[date_field] | default: item.date }}*{{ separator }}{% if item.emoji %}{{ item.emoji }} {% endif %}{{ item[text_field] }}
+{% endfor %}

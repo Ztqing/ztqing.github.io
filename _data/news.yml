@@ -1,0 +1,72 @@
+# News timeline, newest first.
+# `ref` points at the canonical entry id in honors.yml / competitions.yml /
+# publications.yml and records that the same event is also listed there.
+- date: "2026.07"
+  emoji: "🏅"
+  type: competition
+  ref: ict-2026-national
+  text_en: "I won the Second Prize in the National Competition of the 13th College Students' New Generation Information and Communication Technology Competition."
+  text_zh: "在第十三届大学生新一代信息通信科技大赛国赛中荣获二等奖。"
+
+- date: "2026.05"
+  emoji: "🏅"
+  type: competition
+  ref: ict-2026-provincial
+  text_en: "I won the First Prize in the Provincial Competition of the 13th College Students' New Generation Information and Communication Technology Competition."
+  text_zh: "在第十三届大学生新一代信息通信科技大赛省赛中荣获一等奖。"
+
+- date: "2026.03"
+  emoji: "🎉"
+  type: project
+  ref: proj-2026-autonomous-region
+  text_en: "I was selected for the Autonomous Region Graduate Research and Innovation Project."
+  text_zh: "入选自治区研究生科研创新项目。"
+
+- date: "2026.01"
+  emoji: "🎉"
+  type: publication
+  ref: prism-icassp-2026
+  text_en: "Our paper, “PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION,” was accepted by ICASSP 2026."
+  text_zh: "我们的论文“PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION”被 ICASSP 2026 接收。"
+
+- date: "2025.12"
+  emoji: "🏆"
+  type: honor
+  ref: honor-2025-autonomous-region-scholarship
+  text_en: "I was awarded the Autonomous Region Scholarship."
+  text_zh: "荣获研究生自治区奖学金。"
+
+- date: "2025.12"
+  emoji: "🏆"
+  type: honor
+  ref: honor-2025-excellent-cadre
+  text_en: "I was awarded the title of Excellent Student Cadre of Xinjiang University."
+  text_zh: "荣获新疆大学优秀学生干部称号。"
+
+- date: "2025.12"
+  emoji: "🏅"
+  type: competition
+  ref: cacc-2025-region
+  text_en: "I won the First Prize in the Regional Competition of the 2nd CACC."
+  text_zh: "在第二届 CCF 算法能力大赛区域赛中荣获一等奖。"
+
+- date: "2025.08"
+  emoji: "🏅"
+  type: competition
+  ref: astar-2025-preliminary
+  text_en: "I won the Gold Prize in the Preliminary Round of the 21st Baidu Astar."
+  text_zh: "在第二十一届百度之星程序设计大赛初赛中荣获金奖。"
+
+- date: "2025.08"
+  emoji: "🏅"
+  type: competition
+  ref: mati-2025-provincial
+  text_en: "I won the Gold Prize in the Provincial Competition of the 7th Mati Cup."
+  text_zh: "在第七届码蹄杯程序设计大赛省赛中荣获金奖。"
+
+- date: "2024.12"
+  emoji: "🏅"
+  type: competition
+  ref: cacc-2024-region
+  text_en: "I won the Third Prize in the Regional Competition of the 1st CACC."
+  text_zh: "在第一届 CCF 算法能力大赛区域赛中荣获三等奖。"

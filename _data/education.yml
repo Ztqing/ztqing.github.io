@@ -1,0 +1,10 @@
+# Education history, newest first. Use date_en / date_zh only when the two
+# languages read differently; otherwise set the shared `date`.
+- date: "2024.09 - Now"
+  date_zh: "2024.09 - 至今"
+  text_en: "M.S. in Computer Science and Technology, Xinjiang University, Urumqi."
+  text_zh: "新疆大学，计算机科学与技术，**学术性硕士研究生**，乌鲁木齐。"
+
+- date: "2019.09 - 2023.06"
+  text_en: "B.E. in Computer Science and Technology, Huai'an University, Huai'an."
+  text_zh: "淮安大学，计算机科学与技术，本科，淮安。"
