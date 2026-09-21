@@ -47,7 +47,7 @@ author_profile: true
 
 # 🎉 论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='{{ "/images/publications/2026-ICASSP-PRISM.png" | relative_url }}' alt="PRISM 框架概览" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='{{ "/images/publications/2026-ICASSP-PRISM.webp" | relative_url }}' alt="PRISM 框架概览" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 PRISM: PROPAGATING-BASED REFINED SEMANTIC FEATURES WITH BIPARTITE MATCHING FOR VISIBLE-INFRARED GROUP RE-IDENTIFICATION
