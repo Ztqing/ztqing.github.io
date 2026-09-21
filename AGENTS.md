@@ -8,9 +8,13 @@ This repository hosts a personal academic homepage based on AcadHomepage and Jek
 
 Primary content and configuration live in:
 
-- `_pages/about.md`: homepage content, including News, Publications, Honors, Competitions, and Education.
+- `_data/sections.yml`: homepage sections in render order, each with its anchor `id` and English/Chinese title. It is the single source of truth for the anchors.
+- `_data/news.yml`, `_data/publications.yml`, `_data/honors.yml`, `_data/competitions.yml`, `_data/education.yml`: homepage content. List entries carry both languages as `text_en` / `text_zh`.
+- `_data/navigation.yml`: section ids listed per language for the top navigation. Labels and anchor urls are resolved from `sections.yml`.
+- `_includes/sections/`: one partial per section; the file name matches the section id.
+- `_includes/render/`: shared renderers used by those partials (`heading.html`, `timeline.html`, `publication-card.html`).
+- `_pages/about.md`, `_pages/about-zh.md`: page shells that only set front matter and include the section partials.
 - `_config.yml`: site metadata, author profile, plugins, Jekyll settings, and excluded paths.
-- `_data/navigation.yml`: top navigation links.
 - `images/`: site images and publication figures.
 - `_sass/`, `assets/`, `_includes/`, `_layouts/`: theme, styles, scripts, and templates.
 
@@ -72,8 +76,12 @@ git diff --check
 For site or template changes, also run:
 
 ```bash
-bundle exec jekyll build
+LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll build
 ```
+
+The locale matters: without a UTF-8 locale the SCSS converter aborts with `Invalid US-ASCII character`.
+
+To confirm a refactor changed no rendered output, build before and after and diff the two `_site` copies.
 
 When a visual/layout change is made, run the local server and inspect the relevant page in a browser.
 
