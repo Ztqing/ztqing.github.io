@@ -76,6 +76,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - .github
+  - AGENTS.md
   - CHANGELOG
   - Capfile
   - Gemfile
@@ -91,6 +92,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - run_server.sh
   - tmp
   - vendor
 keep_files:
