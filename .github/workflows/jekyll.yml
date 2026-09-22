@@ -37,7 +37,8 @@ jobs:
         # https://github.com/ruby/setup-ruby/releases
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          # The Ruby version comes from the .ruby-version file, so it is kept in
+          # one place for CI and local development alike.
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
