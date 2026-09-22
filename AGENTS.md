@@ -28,10 +28,11 @@ Install dependencies:
 bundle install
 ```
 
-If Bundler is missing or the lockfile requires a specific version:
+Ruby is pinned in `.ruby-version` (currently 3.4), and Bundler by the `BUNDLED WITH` section at the
+end of `Gemfile.lock` (currently 4.0.15). If Bundler is missing, install that version:
 
 ```bash
-gem install bundler:2.2.19
+gem install bundler:4.0.15
 ```
 
 Build the site:
