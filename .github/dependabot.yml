@@ -1,0 +1,16 @@
+# Keeps the workflow actions from silently falling behind the runner image,
+# which is what produced the Node.js 20 deprecation warnings.
+#
+# The bundler ecosystem is deliberately not tracked here: the gem set is pinned
+# by the github-pages meta gem, so upgrading it is a deliberate migration rather
+# than a routine bump. (github-pages 232 requires nokogiri >= 1.16.2, which in
+# turn requires Ruby >= 3.0.)
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "build"
