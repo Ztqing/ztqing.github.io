@@ -144,6 +144,5 @@ remove: placeholder Scholar link
 ## Repository Notes
 
 - `_config.yml` excludes several development and source files from the generated site.
-- `google_scholar_crawler/` is for citation automation and should be changed only for citation workflow tasks.
-- `.github/workflows/` may affect GitHub Pages deployment and citation updates; edit with care.
+- `.github/workflows/` may affect GitHub Pages deployment; edit with care.
 - This site uses GitHub Pages-compatible Jekyll plugins through the `github-pages` gem.
