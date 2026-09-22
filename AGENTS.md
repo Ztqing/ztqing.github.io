@@ -63,6 +63,7 @@ http://127.0.0.1:4000
 - Add publication images under `images/publications/` and reference them with relative paths already used by the page.
 - Do not edit files under `_site/`; it is generated output.
 - Do not commit local system files such as `.DS_Store`.
+- Add any new root-level Markdown file to the `exclude` list in `_config.yml`. Root-level Markdown is rendered as a real page by `jekyll-optional-front-matter`, so an unlisted file would be published as a public URL and added to the sitemap.
 - Do not make broad theme or layout changes unless the task explicitly asks for them.
 
 ## Validation
