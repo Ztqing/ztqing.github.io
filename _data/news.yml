@@ -1,6 +1,12 @@
 # News timeline, newest first.
 # `ref` points at the canonical entry id in honors.yml / competitions.yml /
 # publications.yml and records that the same event is also listed there.
+- date: "2026.09"
+  emoji: "🎉"
+  type: publication
+  text_en: "Our paper, “SPEAR: Stroke-Prior Encoding and Aggregation for Oracle Bone Inscription Image Retrieval,” was accepted by ADMA 2026."
+  text_zh: "我们的论文“SPEAR: Stroke-Prior Encoding and Aggregation for Oracle Bone Inscription Image Retrieval”被 ADMA 2026 接收。"
+
 - date: "2026.07"
   emoji: "🏅"
   type: competition
