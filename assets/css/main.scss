@@ -46,9 +46,14 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    
+
+    // Separate consecutive entries instead of underlining every card, so the
+    // last card does not leave a dangling rule above the next section heading.
+    & + .paper-box {
+        border-top: 1px #efefef solid;
+    }
+
 
     .paper-box-image{
         justify-content: center;
